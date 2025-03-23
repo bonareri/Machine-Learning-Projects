@@ -117,9 +117,10 @@ To ensure data quality and improve model performance, the following data cleanin
 
 ### Transaction Amount Distribution
 
-| Distribution of Transaction Amount | Outlier Detection |
-|------------------------------------|-------------------|
-| ![Image 1](https://github.com/user-attachments/assets/1c90515d-2ed0-4f1b-87be-2b0d501bb40b) | ![Image 2](https://github.com/user-attachments/assets/b727ea11-bb87-4d2f-a749-bfe728ed1d1f) |
+| ![image](https://github.com/user-attachments/assets/3f04dfa7-8aec-4c87-97dd-65519e3339f0)
+
+### Outlier Detection
+ | ![image](https://github.com/user-attachments/assets/9438af05-8af9-4b81-b07f-2bd0ad30531e)
 
 #### Skewness in Transaction Amount
 
@@ -201,7 +202,8 @@ To ensure data quality and improve model performance, the following data cleanin
 
 #### Analyzing Fraud Distribution by Hour
 
-![image](https://github.com/user-attachments/assets/0ed31029-6f53-43e9-939f-7763a2a73933)
+![image](https://github.com/user-attachments/assets/4e72ef53-29e6-4204-b694-27e83d611d2c)
+
 
 ### Insights from the Distribution of High-Value Fraud Transactions by Hour  
 
@@ -220,7 +222,8 @@ To ensure data quality and improve model performance, the following data cleanin
 
 ### Comparing Fraudulent vs. Legitimate Transactions
 
-![image](https://github.com/user-attachments/assets/3080d77b-4cc3-4777-91fa-c1b8194443fc)
+![image](https://github.com/user-attachments/assets/5de2f53e-4e11-45a2-829c-6a8549eb3124)
+
 
 #### **Insights from Hourly Distribution of High-Value Transactions**  
 
@@ -251,7 +254,8 @@ To ensure data quality and improve model performance, the following data cleanin
 
 ### Correlation Analysis
 
-![image](https://github.com/user-attachments/assets/ffd8957d-d610-4038-bb35-c329be764c2b)
+![image](https://github.com/user-attachments/assets/ce8f9f1a-c70f-4427-9d7b-20cc6e98a3be)
+
 
 #### Feature Correlation Heatmap - Insights
 
@@ -262,7 +266,8 @@ To ensure data quality and improve model performance, the following data cleanin
 
 ### Highly correlated features for fraud detection.
 
-![image](https://github.com/user-attachments/assets/079b6858-29f2-4750-be66-af36e1001e1e)
+![image](https://github.com/user-attachments/assets/9bcbed2e-ce6a-44b8-9baa-c6403354f87c)
+
 
 #### **Key Insights**
 - **V11, V4, and V2** show the strongest positive correlation, suggesting that their increase may be associated with fraudulent activity.  
@@ -310,7 +315,7 @@ After data preprocessing, multiple machine learning models were trained and eval
 - Evaluated using **accuracy, precision, recall, F1-score**, and **AUC-ROC**.
 - Confusion matrix and AUC-ROC curve were plotted for visualization.
 
-![image](https://github.com/user-attachments/assets/dfcc9fe1-008f-4086-86e8-00b29e773dd8)
+![image](https://github.com/user-attachments/assets/cbeb950c-23b1-4905-8f58-3e708c660d44)
 
 ---
 
@@ -319,7 +324,8 @@ After data preprocessing, multiple machine learning models were trained and eval
 - Tuned hyperparameters such as `n_estimators`, `max_depth`, and `min_samples_split`.
 - Evaluated using the same metrics as Logistic Regression.
 
-![image](https://github.com/user-attachments/assets/78c45281-ae78-451d-a184-3d4968c5c8d8)
+![image](https://github.com/user-attachments/assets/c758936a-ca6b-4b50-97a0-b99e5eab1458)
+
 
 ---
 
@@ -328,7 +334,8 @@ After data preprocessing, multiple machine learning models were trained and eval
 - Tuned hyperparameters including `learning_rate`, `max_depth`, and `n_estimators`.
 - Achieved the best performance among all models.
 
-![image](https://github.com/user-attachments/assets/45f38889-df06-4393-8764-7607de608a8a)
+![image](https://github.com/user-attachments/assets/c96f2417-1eaa-4c76-8029-d4f15b009617)
+
 
 ---
 
