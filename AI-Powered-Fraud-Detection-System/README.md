@@ -106,7 +106,7 @@ To ensure data quality and improve model performance, the following data cleanin
 
 ### Fraud vs. Non-Fraud Distribution
 
-![image](https://github.com/user-attachments/assets/367d5949-c3a9-41a6-845b-0e79ccc5218c)
+![image](https://github.com/user-attachments/assets/ebb3d5c0-7256-4c73-9f1d-c92d339cdc9b)
 
 #### **Class Imbalance Insights**
 - The dataset is highly imbalanced, with **284,315 non-fraudulent transactions** and only **492 fraudulent transactions**.
