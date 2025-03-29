@@ -89,16 +89,14 @@ The table below provides summary statistics for the numerical features in the da
 
 **Imbalance in distribution:** 
 
-![image](https://github.com/user-attachments/assets/6f6d1e1b-fe71-4e75-bf1d-0f10506c5136)
+![image](https://github.com/user-attachments/assets/b4f1235f-f831-4f8e-8c2b-2d1d22dabeed)
 
 - Non-defaulters make up **88.4%** of the dataset, while defaulters account for only **11.6%**.
 - This class imbalance may affect model performance, requiring techniques like oversampling, undersampling, or adjusting class weights.  
 
-![image](https://github.com/user-attachments/assets/5ed9d880-2435-4f88-92c9-a8c04e9a4062)
-
 ### KDE Plots of Numerical Features by Default Status
 
-![image](https://github.com/user-attachments/assets/ff388dd5-b09b-4dba-bf27-e215b91e931c)
+![image](https://github.com/user-attachments/assets/b91c7b75-abad-4a6a-aad1-2bf59ed914d1)
 
  **Insights from KDE Plots**
 
@@ -111,7 +109,7 @@ The table below provides summary statistics for the numerical features in the da
 
 ### Correlation Analysis
 
-![image](https://github.com/user-attachments/assets/a6d39d2a-84b7-40da-968d-ffc3d003d3ee)
+![image](https://github.com/user-attachments/assets/efadf642-cefb-4091-9a50-5f7834ef1e6b)
 
 **Key Takeaways from Correlation Analysis**
 
@@ -123,7 +121,7 @@ The table below provides summary statistics for the numerical features in the da
 - **Credit Score** (-0.034) shows a weak negative correlation, meaning higher scores slightly reduce default probability.  
 - **Most correlations are weak to moderate**, implying that **default is influenced by multiple factors rather than a single one**.
 
-![image](https://github.com/user-attachments/assets/8e71c06e-ed07-4066-8956-1eca35998ad3)
+![image](https://github.com/user-attachments/assets/dd571406-001d-440a-9f07-7a55f23088ef)
 
 ####  1️⃣ Key Observations  
 - Defaulters (Default = 1) **tend to have lower credit scores** compared to non-defaulters.  
@@ -135,7 +133,7 @@ The table below provides summary statistics for the numerical features in the da
   - A **lower credit score increases the likelihood of default**.  
   - Lending institutions should **prioritize credit score thresholds** when assessing loan applications.   
 
-![image](https://github.com/user-attachments/assets/188d25e5-3f59-4cfa-b4d1-c1216b38a9da)
+![image](https://github.com/user-attachments/assets/bb92072b-c867-404a-909f-f135a43fedf3)
 
 #### 🔍 Observations  
 - **Defaulters (Red) cluster in the top-left**, indicating higher defaults among **low-income, high-loan** borrowers.  
@@ -145,13 +143,13 @@ The table below provides summary statistics for the numerical features in the da
 - **Higher risk** for low-income borrowers requesting large loans.  
 - **Stricter eligibility criteria & income-based loan caps** can help mitigate default risk.
 
-![image](https://github.com/user-attachments/assets/da9944ed-bc44-4101-a997-b5374b12b4b4)
+![image](https://github.com/user-attachments/assets/da5732c6-e778-40a3-8b16-7d7abbc04317)
 
 **Insights**
 - Higher DTI ratios correlate with increased default risk.
 - Borrowers with a DTI ratio > 0.7 are more likely to default.
 
-![image](https://github.com/user-attachments/assets/49351ed3-f347-402b-9ce6-ce0d9ec76074)
+![image](https://github.com/user-attachments/assets/7b9b1f7e-bc02-431e-8f07-7179381e4a70)
 
 **Insights**
 - Unemployed borrowers have a higher default rate than salaried employees. - Full-time employees are at a lower risk of default.
@@ -195,8 +193,8 @@ The table below provides summary statistics for the numerical features in the da
 
 <table>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/bf3b3ae5-d588-4183-a24d-fbb012c1f566" width="500"></td>
-    <td><img src="https://github.com/user-attachments/assets/20984e21-abb1-4acb-9dc0-c0d5e86f1fa9" width="500"></td>
+    <td><img src="https://github.com/user-attachments/assets/b10876ce-741d-4d9b-ba3c-cbf8d5dd66f9" width="500"></td>
+    <td><img src="https://github.com/user-attachments/assets/684e4d08-eedf-450e-9b79-3a97b6be7f61" width="500"></td>
   </tr>
 </table>
 
@@ -217,8 +215,8 @@ The table below provides summary statistics for the numerical features in the da
 
 <table>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/6514fed8-083b-4c1f-b39b-7c5c9833516c" width="500"></td>
-    <td><img src="https://github.com/user-attachments/assets/167a58dd-95ec-417f-84a5-fd8e0ab1956a" width="500"></td>
+    <td><img src="https://github.com/user-attachments/assets/a2c20d03-60d4-424c-b820-28034900e9ce" width="500"></td>
+    <td><img src="https://github.com/user-attachments/assets/10441f0e-303b-46e9-a424-fea16efed7d8" width="500"></td>
   </tr>
 </table>
 
@@ -233,8 +231,8 @@ The table below provides summary statistics for the numerical features in the da
 
 <table>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/7c0dd563-35b7-4d2d-9a3f-ac3442389295" width="500"></td>
-    <td><img src="https://github.com/user-attachments/assets/c3ff01a0-4a81-4f26-ba22-8b88031c71f7" width="500"></td>
+    <td><img src="https://github.com/user-attachments/assets/b063bfba-eb4c-4d97-ba29-d0eca5d1aa8e" width="500"></td>
+    <td><img src="https://github.com/user-attachments/assets/2232760e-ee16-4726-a083-3c5c8059cbec" width="500"></td>
   </tr>
 </table>
 
@@ -249,8 +247,8 @@ The table below provides summary statistics for the numerical features in the da
 
 <table>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/767af14f-73bb-4039-98f4-79e9a3455660" width="500"></td>
-    <td><img src="https://github.com/user-attachments/assets/674522c2-395b-458f-bac4-b3f8496b8df4" width="500"></td>
+    <td><img src="https://github.com/user-attachments/assets/782db019-133e-40ff-9359-3dcc71463af4" width="500"></td>
+    <td><img src="https://github.com/user-attachments/assets/d9107c60-bb11-41e6-82ae-08838f6065c9" width="500"></td>
   </tr>
 </table>
 
