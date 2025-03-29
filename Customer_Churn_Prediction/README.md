@@ -1,4 +1,4 @@
-# Telecom Customer Churn Prediction
+![image](https://github.com/user-attachments/assets/5ace26b1-0184-4f29-95bc-023ce00ce330)# Telecom Customer Churn Prediction
 
 ## Overview
 Customer churn is the percentage of customers who stop using a company's product or service during a certain timeframe. Customer churn is a major challenge in the telecom industry. This project aims to predict whether a customer will churn based on historical data, allowing telecom companies to implement proactive retention strategies.
@@ -22,7 +22,7 @@ The dataset contains **7,043 customer records** with **21 features**, including 
 ### 2. Exploratory Data Analysis (EDA)
 #### Summary Statistics
 
-<img width="380" alt="EDA" src="https://github.com/user-attachments/assets/6c9877be-8c09-471f-a0a8-b57f000c0fd4" />
+![image](https://github.com/user-attachments/assets/288b6b3a-63e4-42d3-aab2-5531bdf95d6b)
 
 **Key Insights**  
 - Most customers are **not senior citizens**.  
@@ -32,7 +32,8 @@ The dataset contains **7,043 customer records** with **21 features**, including 
 
 #### Churn Distribution
 
-![image](https://github.com/user-attachments/assets/1b42599f-deef-4ff1-be13-24795f24b410)
+![image](https://github.com/user-attachments/assets/0c440bab-7c3d-4a23-9a59-a844617717ee)
+
 
   **Key Insights:**
 - The dataset has an **imbalanced churn distribution**, with significantly more customers who did not churn.
@@ -41,7 +42,7 @@ The dataset contains **7,043 customer records** with **21 features**, including 
 
 #### Distribution of Numerical Features
 
-![image](https://github.com/user-attachments/assets/229d4ef8-d510-4bb0-8da5-f77603e88857)
+![image](https://github.com/user-attachments/assets/2cd87911-2d77-40d0-b70b-09fc9888481f)
 
   **Key Insights**  
 - **Tenure is right-skewed**, with many short-term and long-term customers.  
@@ -52,7 +53,8 @@ The dataset contains **7,043 customer records** with **21 features**, including 
 
 #### Feature Correlation
 
-![image](https://github.com/user-attachments/assets/fa85616e-e0d7-4668-a799-f960d8defe8b)
+![image](https://github.com/user-attachments/assets/322102c9-5083-47e6-8076-0d1dc0117291)
+
 
 - **Key Insights**
 - Customers with **fiber optic internet, electronic check payments, and high monthly charges** are more likely to churn.
@@ -75,7 +77,7 @@ Random Forest is an ensemble learning method that combines multiple decision tre
    - For classification, the majority vote across trees determines the final prediction.  
    - For regression, the average of all tree predictions is taken.  
 
-![image](https://github.com/user-attachments/assets/f7f6547d-f40c-45cb-871f-f7944dfd560b)
+![image](https://github.com/user-attachments/assets/e4abdb57-8a64-4d61-b4e9-8b06845f3264)
 
 **Advantages**  
 ✅ **Reduces Overfitting**: Combining multiple trees prevents individual trees from overfitting to training data.  
@@ -96,7 +98,7 @@ XGBoost is a powerful gradient boosting algorithm optimized for speed and perfor
 6. **Repeat Until Convergence**: The process is repeated multiple times, adding new trees iteratively to correct errors.  
 7. **Make Final Predictions**: The final prediction is obtained by combining all weak learners using weighted averaging (for regression) or majority voting (for classification).
 
-![image](https://github.com/user-attachments/assets/3e9b6ebe-64b0-4c31-bc17-cb4744869e52)
+![image](https://github.com/user-attachments/assets/ea96f5a2-c3eb-4797-b57c-9d9899a9f536)
 
 **Why XGBoost is Powerful?**  
 ✅ Handles missing values automatically  
@@ -156,13 +158,14 @@ Support Vector Machine (SVM) is a powerful supervised learning algorithm used fo
 - Recall: 0.79 (Class 0), 0.70 (Class 1)
 - F1-score: 0.83 (Class 0), 0.61 (Class 1)
 
-![image](https://github.com/user-attachments/assets/2943cf20-b6bb-4e7c-986f-2eb8aa9988f0)
+![image](https://github.com/user-attachments/assets/ef03a05c-c4a5-4b52-9082-746b61ea561a)
+
 
 - The model performs well for predicting "No Churn" cases (Class 0) but struggles with predicting actual churn cases (Class 1).
 
 **Ovefitting Analysis**
 
-![image](https://github.com/user-attachments/assets/a705cf9f-1b5a-47ba-9680-7bb39ccb7a02)
+![image](https://github.com/user-attachments/assets/2dc27fcf-81df-454c-803c-317c3a214db5)
 
 ### 📌 Random Forest Performance After Tuning:
 
@@ -171,7 +174,7 @@ Support Vector Machine (SVM) is a powerful supervised learning algorithm used fo
 - Recall: 0.79 (Class 0), 0.67 (Class 1)
 - F1-score: 0.83 (Class 0), 0.60 (Class 1)
 
-![image](https://github.com/user-attachments/assets/da7a4e54-fa7d-47b0-b002-db14041d020e)
+![image](https://github.com/user-attachments/assets/a2b83d76-cb45-41f1-b406-e06e4698efe8)
 
 ### 📌 SVM Performance:
 
@@ -180,7 +183,7 @@ Support Vector Machine (SVM) is a powerful supervised learning algorithm used fo
 - Recall: 0.83 (Class 0), 0.64 (Class 1)
 - F1-score: 0.84 (Class 0), 0.60 (Class 1)
 
-![image](https://github.com/user-attachments/assets/0651ee67-6f30-424f-b860-9f41af97cb92)
+![image](https://github.com/user-attachments/assets/5f4b1115-540c-44c3-b867-3bc956ae269f)
 
 ### 📌 XGBoost Performance Before Tuning:
 
@@ -189,7 +192,7 @@ Support Vector Machine (SVM) is a powerful supervised learning algorithm used fo
 - Recall: 0.78 (Class 0), 0.71 (Class 1)
 - F1-score: 0.83 (Class 0), 0.61 (Class 1)
 
-![image](https://github.com/user-attachments/assets/0081e53a-7f24-46ef-a9b1-1794bc40cec5)
+![image](https://github.com/user-attachments/assets/5c2e7be0-e607-4fa1-83d1-246cc5326e14)
 
 ### 📌 XGBoost Performance After Tuning:
 
@@ -198,7 +201,7 @@ Support Vector Machine (SVM) is a powerful supervised learning algorithm used fo
 - Recall: 0.81 (Class 0), 0.60 (Class 1)
 - F1-score: 0.83 (Class 0), 0.56 (Class 1)
 
-![image](https://github.com/user-attachments/assets/447a1412-1aba-45ee-bc1e-34039774998f)
+![image](https://github.com/user-attachments/assets/78db3275-10a0-42e9-b368-5444299e8528)
 
 ### Model Performance Summary
 
