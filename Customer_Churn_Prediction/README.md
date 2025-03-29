@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/5ace26b1-0184-4f29-95bc-023ce00ce330)# Telecom Customer Churn Prediction
+# Telecom Customer Churn Prediction
 
 ## Overview
 Customer churn is the percentage of customers who stop using a company's product or service during a certain timeframe. Customer churn is a major challenge in the telecom industry. This project aims to predict whether a customer will churn based on historical data, allowing telecom companies to implement proactive retention strategies.
@@ -77,7 +77,7 @@ Random Forest is an ensemble learning method that combines multiple decision tre
    - For classification, the majority vote across trees determines the final prediction.  
    - For regression, the average of all tree predictions is taken.  
 
-![image](https://github.com/user-attachments/assets/e4abdb57-8a64-4d61-b4e9-8b06845f3264)
+![image](https://github.com/user-attachments/assets/33ee7d4f-d153-43bb-bed2-42bcad7bced4)
 
 **Advantages**  
 ✅ **Reduces Overfitting**: Combining multiple trees prevents individual trees from overfitting to training data.  
@@ -98,7 +98,7 @@ XGBoost is a powerful gradient boosting algorithm optimized for speed and perfor
 6. **Repeat Until Convergence**: The process is repeated multiple times, adding new trees iteratively to correct errors.  
 7. **Make Final Predictions**: The final prediction is obtained by combining all weak learners using weighted averaging (for regression) or majority voting (for classification).
 
-![image](https://github.com/user-attachments/assets/ea96f5a2-c3eb-4797-b57c-9d9899a9f536)
+![image](https://github.com/user-attachments/assets/c052afb4-9aef-4674-83db-f2b16147f1bc)
 
 **Why XGBoost is Powerful?**  
 ✅ Handles missing values automatically  
